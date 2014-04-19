@@ -4,7 +4,7 @@ QUEENS,11374,Jewish/Kosher,02B,Z
 QUEENS,11374,Jewish/Kosher,10A,Z
 QUEENS,11374,Jewish/Kosher,10B,Z
 BROOKLYN,11215,American ,10F,A
-MANHATTAN,10014,"Latin (Cuban, Dominican, Puerto Rican, South & Central American)",10J,A
+MANHATTAN,10014,Latin (Cuban Dominican Puerto Rican South & Central American),10J,A
 QUEENS,11374,Jewish/Kosher,06C,A
 MANHATTAN,10065,Steak,06D,A
 MANHATTAN,10017,American ,10F,A
@@ -14,7 +14,7 @@ MANHATTAN,10013,American ,06D,A
 MANHATTAN,10001,Bagels/Pretzels,10F,C
 MANHATTAN,10001,Bagels/Pretzels,10F,
 BROOKLYN,11223,Jewish/Kosher,10B,A
-BROOKLYN,11218,"Ice Cream, Gelato, Yogurt, Ices",06D,
+BROOKLYN,11218,Ice Cream Gelato Yogurt Ices,06D,
 QUEENS,11369,American ,,
 THE BRONX,10452,Other,,
 BROOKLYN,11211,Other,,
