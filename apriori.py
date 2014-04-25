@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from copy import deepcopy
 import itertools
@@ -8,14 +9,19 @@ support = {}
 transactionNum = 0
 total_support= {}
 def main():
-    if len(sys.argv) != 4:
-        print 'Running command is python <path to INTEGRATED-DATASET.csv> <min_sup> <min_conf>'
-        sys.exit()
+    #if len(sys.argv) != 4:
+    #    print 'Running command is python <path to INTEGRATED-DATASET.csv> <min_sup> <min_conf>'
+    #    sys.exit()
     
     fileName = sys.argv[1]
     minSupport = float(sys.argv[2])
     minConfidence = float(sys.argv[3])
     outputFile = open("output.txt",'w')
+
+    #fileName = 'INTEGRATED-DATASET.csv'
+    #minSupport = 0.005
+    #minConfidence = 0.5
+    #outputFile = open("output.txt",'w')
     """
     try:
         minSupport = float(minSupport)
@@ -47,15 +53,14 @@ def printConfidence(min_conf, outputFile):
                 if len(item_set) == 1:
                     if item_set[0]==single[0]:
                         continue
-                numerator_set = item_set + single
-                if numerator_set in total_support[k+1]:
-                    numeratorSupport = total_support[k+1][numerator_set]
-                    confidence = float(numeratorSupport)/float(denominatorSupport)
-                    if single[0] == 'French':
-                        print confidence, numerator_set
-                    if confidence >= min_conf:
-                        #print confidence, item_set
-                        Confidence[(item_set, single)] = confidence
+                #print list(itertools.permutations(list(item_set + single),k+1))            
+                for numerator_set in list(itertools.permutations(list(item_set + single),k+1)):
+                    if numerator_set in total_support[k+1]:
+                        numeratorSupport = total_support[k+1][numerator_set]
+                        confidence = float(numeratorSupport)/float(denominatorSupport)
+                        if confidence >= min_conf:
+                            #print confidence, item_set
+                            Confidence[(item_set, single, numerator_set)] = confidence
                     
                 
     #print Confidence
@@ -64,13 +69,15 @@ def printConfidence(min_conf, outputFile):
     print >> outputFile,'\n'
     print >> outputFile,"==High-confidence association rules (",min_conf*100,"%)"
 
+    #print sorted_conf
     #print support
     for entry in sorted_conf:
+        #print entry
         lhs = entry[0][0][0]
         for word in entry[0][0][1:]:
             lhs = lhs + ' ,' +word
         #print float(support[entry[0][0] + entry[0][1]])
-        supp = float(support[entry[0][0]+ entry[0][1]]) / float(transactionNum)
+        supp = float(support[entry[0][2]]) / float(transactionNum)
         print >> outputFile,'[',lhs,'] => [',entry[0][1][0],'] (Conf:',entry[1]*100,'%, Supp:',supp*100,'%)'
     
             
@@ -88,6 +95,8 @@ def getLargeSets(k, fileName, minSupport, candidates):
     row_items = []
     for line in f:
         basket_items = line.split('","')
+        basket_items[0] = basket_items[0][1:]
+        basket_items[len(basket_items)-1] = basket_items[len(basket_items)-1][:-2]
         if transactionNum == -1:
             transactionNum = 0 # read the heading
             for i in range(len(basket_items)):
