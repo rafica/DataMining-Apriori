@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
-
+from copy import deepcopy
 import itertools
+import operator
 accountKey = ''
 
+support = {}
+transactionNum = 0
+total_support= {}
 def main():
     """
     if len(sys.argv) != 4:
@@ -10,8 +14,8 @@ def main():
         sys.exit()
     """
     minSupport = 0.1
-    minConfidence = 0.5
-    fileName = "integrated.csv"
+    minConfidence = 0.4
+    fileName = "test.csv"
     global accountKey
     accountKey = "JsV9AIVwzY0l654YiaIXAppMcpvpm7lvkcYdmzJrNcs"
     """
@@ -25,14 +29,63 @@ def main():
         sys.exit()
     """
     a_priori(fileName, minSupport, minConfidence)
+    #print total_support
+
+    printConfidence(minConfidence)
 
 
-def getLargeSets(fileName, minSupport):
+def printConfidence(min_conf):
+    total_itemsets = []
+    global support
+    Confidence = {}
+
+    global total_support
+    global transactionNum
+    
+    for k in total_support:
+        for item_set in total_support[k]:
+            denominatorSupport = total_support[k][item_set]
+            for single in total_support[1]:                
+                if len(item_set) == 1:
+                    if item_set[0]==single[0]:
+                        continue
+                numerator_set = item_set + single
+                if numerator_set in total_support[k+1]:
+                    numeratorSupport = total_support[k+1][numerator_set]
+                    confidence = float(numeratorSupport)/float(denominatorSupport)
+                    if confidence > min_conf:
+                        Confidence[(item_set, single)] = confidence
+                    
+                
+    #print Confidence
+    sorted_conf = sorted(Confidence.iteritems(), key=operator.itemgetter(1), reverse = True)
+
+    print '\n'
+    print "==High-confidence association rules (",min_conf*100,"%)"
+
+    #print support
+    for entry in sorted_conf:
+        lhs = entry[0][0][0]
+        for word in entry[0][0][1:]:
+            lhs = lhs + ' ,' +word
+        #print float(support[entry[0][0] + entry[0][1]])
+        supp = float(support[entry[0][0]+ entry[0][1]]) / float(transactionNum)
+        print '[',lhs,'] => [',entry[0][1][0],'] (Conf:',entry[1]*100,'%, Supp:',supp*100,'%)'
+    
+            
+
+
+def getLargeSets(k, fileName, minSupport, candidates):
+
+    global total_support
+    global transactionNum
+    transactionNum = 0
+    print "in getlargeSets"
     f = open(fileName)
     supportDict = {}
     first = 1
     typeNames = []
-    transactionNum = 0
+    row_items = []
     for line in f:
         basket_items = line.split(',')
         if first:
@@ -42,76 +95,112 @@ def getLargeSets(fileName, minSupport):
             continue
 
         transactionNum = transactionNum + 1
-
         for i in range(len(basket_items)):
-            key = typeNames[i] + '|' + basket_items[i].strip()
+            if not basket_items[i].strip():
+                continue
+            row_items.append(typeNames[i] + '|' + basket_items[i].strip())
+        
+        #print candidates
+        for i in itertools.combinations(row_items, k):
+            new_key = deepcopy(i)
 
-            if key in supportDict:
-                supportDict[key] = supportDict[key]+1
+            #CHECK IF PRESENT IN CANDIDATES
+            if k>1 and list(new_key) not in candidates:
+                continue
+
+            if new_key in supportDict:
+                supportDict[new_key] = supportDict[new_key] + 1
             else:
-                supportDict[key] = 1
+                supportDict[new_key] = 1
+        
+        row_items = []
+        
     f.close()
+    #print supportDict
+    
     itemNum = len(supportDict.keys())
 
+    
+    print "length of dictionary of all items ",itemNum
     for item in supportDict.keys():
         if float(supportDict[item])/float(transactionNum) < minSupport:
             del supportDict[item]
-    
+
+    print "length of dictionary of all large items ", len(supportDict.keys()), "of value k ", k
+
+    total_support[k] = supportDict  
     return supportDict.keys()
 
 
 
 def a_priori(filename, min_sup, min_conf):
-    
+    global total_support
+    global support
     k = 1
-
-    Large1 = getLargeSets(filename, min_sup)
     
-    LargeSets = []
-    for element in Large1:
-        li = []
-        li.append(element)
-        LargeSets.append(li)
+    LargeSets = getLargeSets(k, filename, min_sup, [])
+
     while LargeSets:
         k = k + 1
         Ck = aprioriGen(LargeSets, k) #generates candidates
-        break
+        LargeSets = getLargeSets(k, filename, min_sup, Ck)
+        #print Ck
 
+    print "==Frequent itemsets (min_sup=",min_sup*100,"%)"
+
+    #HAVE TO SORT
+    for k in total_support:
+        support_dict = total_support[k]
+        for item_set in support_dict:
+            support[item_set] = support_dict[item_set]
+
+    sorted_x = sorted(support.iteritems(), key=operator.itemgetter(1), reverse=True)
+
+    print 'total transactions ' , transactionNum
+    for item_set_support in sorted_x:
+        support1 = float(item_set_support[1]) / float(transactionNum)
+        support1 = support1 * 100
+        print list(item_set_support[0]), ',' ,support1,'%'
+
+    
 
 
 def aprioriGen(LargeItemSets, k):
     lastIndex = k-2
     Candidates =[]
+    print 'in aprioriGen and candidates of k ', k,' is going to be generated is '
     for i in range(len(LargeItemSets)):
         for j in range(i+1,len(LargeItemSets)):
             fail = 0
-            for x in range(lastIndex-1):
+            for x in range(lastIndex):
                 if LargeItemSets[i][x] != LargeItemSets[j][x]:
                     fail = 1
                     break
             if not fail:
                 if LargeItemSets[i][lastIndex] < LargeItemSets[j][lastIndex]:
-                    newItemSet = LargeItemSets[i][:]
+                    newItemSet = list(LargeItemSets[i][:])
                     newItemSet.append(LargeItemSets[j][lastIndex])
                     Candidates.append(newItemSet)
+    #print Candidates
+    print 'their length is ',len(Candidates)
 
+    
     #pruning
-    #test this on higher k values
+    #TEST THIS ON HIGH K VALUES
+
+    prunedCandidates = []
+    pruneFlag = 0
     for j in range(len(Candidates)):
-        for i in itertools.combinations(Candidates[j], len(Candidates[j])-1):
+        for i in itertools.combinations(Candidates[j], k-1):
             #print list(i) not in LargeItemSets
-            if list(i) not in LargeItemSets:
-                Candidates.pop(j)
-                break    
-        
-    return Candidates
-
-
-
-
-
-
-
+            if i not in LargeItemSets:
+                pruneFlag = 1
+                break
+        if not pruneFlag:
+            prunedCandidates.append(Candidates[j])
+            pruneFlag = 0
+    print 'after pruning length is ',len(prunedCandidates)
+    return prunedCandidates
 
 
 
