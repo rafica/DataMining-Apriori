@@ -2,22 +2,20 @@
 from copy import deepcopy
 import itertools
 import operator
-accountKey = ''
+import sys
 
 support = {}
 transactionNum = 0
 total_support= {}
 def main():
-    """
     if len(sys.argv) != 4:
-        print 'Running command is python main.py <bing account key> <precision> \'<query>\''
+        print 'Running command is python <path to INTEGRATED-DATASET.csv> <min_sup> <min_conf>'
         sys.exit()
-    """
-    minSupport = 0.1
-    minConfidence = 0.4
-    fileName = "test.csv"
-    global accountKey
-    accountKey = "JsV9AIVwzY0l654YiaIXAppMcpvpm7lvkcYdmzJrNcs"
+    
+    fileName = sys.argv[1]
+    minSupport = float(sys.argv[2])
+    minConfidence = float(sys.argv[3])
+    outputFile = open("output.txt",'w')
     """
     try:
         minSupport = float(minSupport)
@@ -28,13 +26,13 @@ def main():
         print 'Please enter a valid precision value (0-1)'
         sys.exit()
     """
-    a_priori(fileName, minSupport, minConfidence)
+    a_priori(fileName, minSupport, minConfidence, outputFile)
     #print total_support
 
-    printConfidence(minConfidence)
+    printConfidence(minConfidence,outputFile)
+    outputFile.close()
 
-
-def printConfidence(min_conf):
+def printConfidence(min_conf, outputFile):
     total_itemsets = []
     global support
     Confidence = {}
@@ -53,15 +51,18 @@ def printConfidence(min_conf):
                 if numerator_set in total_support[k+1]:
                     numeratorSupport = total_support[k+1][numerator_set]
                     confidence = float(numeratorSupport)/float(denominatorSupport)
-                    if confidence > min_conf:
+                    if single[0] == 'French':
+                        print confidence, numerator_set
+                    if confidence >= min_conf:
+                        #print confidence, item_set
                         Confidence[(item_set, single)] = confidence
                     
                 
     #print Confidence
     sorted_conf = sorted(Confidence.iteritems(), key=operator.itemgetter(1), reverse = True)
 
-    print '\n'
-    print "==High-confidence association rules (",min_conf*100,"%)"
+    print >> outputFile,'\n'
+    print >> outputFile,"==High-confidence association rules (",min_conf*100,"%)"
 
     #print support
     for entry in sorted_conf:
@@ -70,7 +71,7 @@ def printConfidence(min_conf):
             lhs = lhs + ' ,' +word
         #print float(support[entry[0][0] + entry[0][1]])
         supp = float(support[entry[0][0]+ entry[0][1]]) / float(transactionNum)
-        print '[',lhs,'] => [',entry[0][1][0],'] (Conf:',entry[1]*100,'%, Supp:',supp*100,'%)'
+        print >> outputFile,'[',lhs,'] => [',entry[0][1][0],'] (Conf:',entry[1]*100,'%, Supp:',supp*100,'%)'
     
             
 
@@ -79,17 +80,16 @@ def getLargeSets(k, fileName, minSupport, candidates):
 
     global total_support
     global transactionNum
-    transactionNum = 0
+    transactionNum = -1 # initialize at -1 to take care of first line
     print "in getlargeSets"
     f = open(fileName)
     supportDict = {}
-    first = 1
     typeNames = []
     row_items = []
     for line in f:
-        basket_items = line.split(',')
-        if first:
-            first = 0
+        basket_items = line.split('","')
+        if transactionNum == -1:
+            transactionNum = 0 # read the heading
             for i in range(len(basket_items)):
                 typeNames.append(basket_items[i].strip())
             continue
@@ -133,7 +133,7 @@ def getLargeSets(k, fileName, minSupport, candidates):
 
 
 
-def a_priori(filename, min_sup, min_conf):
+def a_priori(filename, min_sup, min_conf, outputFile):
     global total_support
     global support
     k = 1
@@ -146,7 +146,7 @@ def a_priori(filename, min_sup, min_conf):
         LargeSets = getLargeSets(k, filename, min_sup, Ck)
         #print Ck
 
-    print "==Frequent itemsets (min_sup=",min_sup*100,"%)"
+    print >> outputFile,"==Frequent itemsets (min_sup=",min_sup*100,"%)"
 
     #HAVE TO SORT
     for k in total_support:
@@ -160,7 +160,7 @@ def a_priori(filename, min_sup, min_conf):
     for item_set_support in sorted_x:
         support1 = float(item_set_support[1]) / float(transactionNum)
         support1 = support1 * 100
-        print list(item_set_support[0]), ',' ,support1,'%'
+        print >> outputFile,list(item_set_support[0]), ',' ,support1,'%'
 
     
 

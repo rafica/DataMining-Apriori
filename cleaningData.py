@@ -38,7 +38,7 @@ def main():
     #print violation
     
     boroDict = {'"1"':'MANHATTAN', '"2"':'THE BRONX','"3"':'BROOKLYN','"4"':'QUEENS','"5"':'STATEN ISLAND'};
-    outputFile.write("BORO"+','+"ZIPCODE"+','+"CUISINE"+','+"VIOLCODE"+','+"CURRENTGRADE\n")
+    outputFile.write('"BORO"'+','+'"ZIPCODE"'+','+'"CUISINE"'+','+'"VIOLATION"'+','+'"CURRENTGRADE"\n')
     lineCount = 0;
     for line in mainDataFile:
         lineCount = lineCount + 1

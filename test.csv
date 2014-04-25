@@ -1,26 +1,29 @@
-BORO,ZIPCODE,CUISINE,VIOLCODE,CURRENTGRADE
-BROOKLYN,11224,American ,10B,A
-QUEENS,11374,Jewish/Kosher,02B,Z
-QUEENS,11374,Jewish/Kosher,10A,Z
-QUEENS,11374,Jewish/Kosher,10B,Z
-BROOKLYN,11215,American ,10F,A
-MANHATTAN,10014,Latin (Cuban Dominican Puerto Rican South & Central American),10J,A
-QUEENS,11374,Jewish/Kosher,06C,A
-MANHATTAN,10065,Steak,06D,A
-MANHATTAN,10017,American ,10F,A
-QUEENS,11375,Hamburgers,04L,A
-MANHATTAN,10013,American ,04N,A
-MANHATTAN,10013,American ,06D,A
-MANHATTAN,10001,Bagels/Pretzels,10F,C
-MANHATTAN,10001,Bagels/Pretzels,10F,
-BROOKLYN,11223,Jewish/Kosher,10B,A
-BROOKLYN,11218,Ice Cream Gelato Yogurt Ices,06D,
-QUEENS,11369,American ,,
-THE BRONX,10452,Other,,
-BROOKLYN,11211,Other,,
-QUEENS,11413,Chinese,,P
-MANHATTAN,10002,Japanese,02G,
-MANHATTAN,10019,Pizza,08A,
-MANHATTAN,10038,American ,,
-MANHATTAN,10013,Vietnamese/Cambodian/Malaysia,06D,
-MANHATTAN,10013,Vietnamese/Cambodian/Malaysia,06E,
+"BORO","ZIPCODE","CUISINE","VIOLATION","CURRENTGRADE"
+"BROOKLYN","11224","American ","Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.","A"
+"QUEENS","11374","Jewish/Kosher","Hot food item not held at or above 140º F.","Z"
+"QUEENS","11374","Jewish/Kosher","Toilet facility not maintained and provided with toilet paper, waste receptacle and self-closing door.","Z"
+"QUEENS","11374","Jewish/Kosher","Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.","Z"
+"BROOKLYN","11215","American ","Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.","A"
+"MANHATTAN","10065","American ","Canned food product observed dented and not segregated from other consumable food items.","A"
+"MANHATTAN","10017","American ","Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.","A"
+"QUEENS","11106","Delicatessen","Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.","A"
+"MANHATTAN","10024","Chicken","Live roaches present in facility's food and/or non-food areas.","Z"
+"MANHATTAN","10024","Chicken","Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.","Z"
+"MANHATTAN","10025","American ","Cold food item held above 41º F (smoked fish and reduced oxygen packaged foods above 38 ºF) except during necessary preparation.","A"
+"QUEENS","11368","Chinese","Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.","A"
+"MANHATTAN","10019","American ","Cold food item held above 41º F (smoked fish and reduced oxygen packaged foods above 38 ºF) except during necessary preparation.","A"
+"MANHATTAN","10005","Turkish","Tobacco use, eating, or drinking from open container in food preparation, food storage or dishwashing area observed.","A"
+"MANHATTAN","10007","American ","Hot food item not held at or above 140º F.","A"
+"THE BRONX","10466","Ice Cream Gelato Yogurt Ices","Food Protection Certificate not held by supervisor of food operations.","A"
+"MANHATTAN","10012","Bakery","Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.","A"
+"MANHATTAN","10174","Sandwiches/Salads/Mixed Buffet","Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.","A"
+"QUEENS","11418","American ","Mechanical or natural ventilation system not provided, improperly installed, in disrepair and/or fails to prevent excessive build-up of grease, heat, steam condensation vapors, odors, smoke, and fumes.","A"
+"THE BRONX","10460","American ","Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.","A"
+"BROOKLYN","11224","Hotdogs","Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.","A"
+"MANHATTAN","10021","American ","Personal cleanliness inadequate. Outer garment soiled with possible contaminant.  Effective hair restraint not worn in an area where food is prepared.","B"
+"MANHATTAN","10021","American ","Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.","B"
+"MANHATTAN","10025","American ","Live roaches present in facility's food and/or non-food areas.","B"
+"STATEN ISLAND","10306","Delicatessen","Cold food item held above 41º F (smoked fish and reduced oxygen packaged foods above 38 ºF) except during necessary preparation.","A"
+"MANHATTAN","10038","Barbecue","Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.","A"
+"BROOKLYN","11234","Delicatessen","Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.","A"
+"BROOKLYN","11219","American ","Evidence of mice or live mice present in facility's food and/or non-food areas.","A"
