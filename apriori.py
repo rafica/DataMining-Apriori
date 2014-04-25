@@ -13,15 +13,15 @@ def main():
     #    print 'Running command is python <path to INTEGRATED-DATASET.csv> <min_sup> <min_conf>'
     #    sys.exit()
     
-    fileName = sys.argv[1]
-    minSupport = float(sys.argv[2])
-    minConfidence = float(sys.argv[3])
-    outputFile = open("output.txt",'w')
-
-    #fileName = 'INTEGRATED-DATASET.csv'
-    #minSupport = 0.005
-    #minConfidence = 0.5
+    #fileName = sys.argv[1]
+    #minSupport = float(sys.argv[2])
+    #minConfidence = float(sys.argv[3])
     #outputFile = open("output.txt",'w')
+
+    fileName = 'INTEGRATED-DATASET.csv'
+    minSupport = 0.005
+    minConfidence = 0.5
+    outputFile = open("output.txt",'w')
     """
     try:
         minSupport = float(minSupport)
@@ -95,8 +95,8 @@ def getLargeSets(k, fileName, minSupport, candidates):
     row_items = []
     for line in f:
         basket_items = line.split('","')
-        basket_items[0] = basket_items[0][1:]
-        basket_items[len(basket_items)-1] = basket_items[len(basket_items)-1][:-2]
+        #basket_items[0] = basket_items[0][1:]
+        #basket_items[len(basket_items)-1] = basket_items[len(basket_items)-1][:-2]
         if transactionNum == -1:
             transactionNum = 0 # read the heading
             for i in range(len(basket_items)):
