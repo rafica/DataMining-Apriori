@@ -4,11 +4,21 @@ Created on Apr 23, 2014
 @author: Abhinav Bajaj
 '''
 
+import sys
+
 def main():
-    mainDataFile = open('E:/D drive/Course Material/ADB/Assignments/dohmh_restaurant-inspections_002/WebExtract.csv', "r")
-    cuisineFile = open('E:/D drive/Course Material/ADB/Assignments/dohmh_restaurant-inspections_002/Cuisine.txt', "r")
-    violationFile = open('E:/D drive/Course Material/ADB/Assignments/dohmh_restaurant-inspections_002/Violation.txt', "r")
-    outputFile = open('E:/D drive/Course Material/ADB/Assignments/dohmh_restaurant-inspections_002/INTEGRATED-DATASET.csv','w')
+    if len(sys.argv) != 5:
+        print 'Running command is python cleaningData.py <Path to WebExtract.txt> <Path to Cuisine.txt> <Path to Violation.txt> <INTEGRATED-DATASET output file path>'
+        sys.exit()
+    
+    webExtractPath = sys.argv[1]
+    cuisineFilePath = sys.argv[2]
+    violationFilePath = sys.argv[3]
+    IntegDataFilePath = sys.argv[4]
+    mainDataFile = open(webExtractPath, "r")
+    cuisineFile = open(cuisineFilePath, "r")
+    violationFile = open(violationFilePath, "r")
+    outputFile = open(IntegDataFilePath,'w')
     # load cuisine mapping
     cuisine = {}
     for line in cuisineFile:
@@ -25,7 +35,7 @@ def main():
         vioDesc = ''.join(lineParts[4:])
         vioDesc = '"' + vioDesc
         violation[vioCode] = vioDesc
-    print violation
+    #print violation
     
     boroDict = {'"1"':'MANHATTAN', '"2"':'THE BRONX','"3"':'BROOKLYN','"4"':'QUEENS','"5"':'STATEN ISLAND'};
     outputFile.write("BORO"+','+"ZIPCODE"+','+"CUISINE"+','+"VIOLCODE"+','+"CURRENTGRADE\n")
