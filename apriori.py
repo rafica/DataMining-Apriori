@@ -9,19 +9,19 @@ support = {}
 transactionNum = 0
 total_support= {}
 def main():
-    #if len(sys.argv) != 4:
-    #    print 'Running command is python <path to INTEGRATED-DATASET.csv> <min_sup> <min_conf>'
-    #    sys.exit()
+    if len(sys.argv) != 4:
+        print 'Running command is python <path to INTEGRATED-DATASET.csv> <min_sup> <min_conf>'
+        sys.exit()
     
-    #fileName = sys.argv[1]
-    #minSupport = float(sys.argv[2])
-    #minConfidence = float(sys.argv[3])
-    #outputFile = open("output.txt",'w')
-
-    fileName = 'INTEGRATED-DATASET.csv'
-    minSupport = 0.005
-    minConfidence = 0.5
+    fileName = sys.argv[1]
+    minSupport = float(sys.argv[2])
+    minConfidence = float(sys.argv[3])
     outputFile = open("output.txt",'w')
+
+    #fileName = 'INTEGRATED-DATASET.csv'
+    #minSupport = 0.005
+    #minConfidence = 0.5
+    #outputFile = open("output.txt",'w')
     """
     try:
         minSupport = float(minSupport)
