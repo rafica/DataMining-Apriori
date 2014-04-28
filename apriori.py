@@ -23,6 +23,7 @@ def main():
     a_priori(fileName, minSupport, outputFile)
     
     printConfidence(minConfidence,outputFile)
+
     outputFile.close()
 
 def printConfidence(min_conf, outputFile):
@@ -67,8 +68,6 @@ def printConfidence(min_conf, outputFile):
         print >> outputFile,'[',lhs,'] => [',entry[0][1][0],'] (Conf:',entry[1]*100,'%, Supp:',supp*100,'%)'
     
             
-
-
 def getLargeSets(k, fileName, minSupport, candidates):
 
     """to generate list of item sets of length k with support greater than minSupport.
@@ -99,7 +98,7 @@ def getLargeSets(k, fileName, minSupport, candidates):
             row_items.append(typeNames[i] + '|' + basket_items[i].strip())
         
         
-        for i in itertools.combinations(row_items, k):
+        for i in itertools.permutations(row_items, k):
             new_key = deepcopy(i)
 
             #CHECK IF PRESENT IN CANDIDATES
@@ -167,6 +166,7 @@ def aprioriGen(LargeItemSets, k):
 
     lastIndex = k-2
     Candidates =[]
+
     
     for i in range(len(LargeItemSets)):
         for j in range(i+1,len(LargeItemSets)):
@@ -189,15 +189,26 @@ def aprioriGen(LargeItemSets, k):
 
     prunedCandidates = []
     pruneFlag = 0
+
+    found = 0
+
     for j in range(len(Candidates)):
-        for i in itertools.combinations(Candidates[j], k-1): 
-            if i not in LargeItemSets:
+        for i in itertools.combinations(Candidates[j], k-1):
+            found = 0
+            for itemSet in itertools.permutations(i, k-1):
+                if tuple(itemSet) in LargeItemSets:
+                    found = 1
+                    pruneFlag = 0
+                    break
+            if found==0:
                 pruneFlag = 1
                 break
+            
         if not pruneFlag:
             prunedCandidates.append(Candidates[j])
             pruneFlag = 0
-    
+
+
     return prunedCandidates
 
 
