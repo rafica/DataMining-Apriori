@@ -18,7 +18,6 @@ def main():
     minSupport = float(sys.argv[2])
     minConfidence = float(sys.argv[3])
     outputFile = open("output.txt",'w')
-
     
     a_priori(fileName, minSupport, outputFile)
     
@@ -96,8 +95,7 @@ def getLargeSets(k, fileName, minSupport, candidates):
             if not basket_items[i].strip():
                 continue
             row_items.append(typeNames[i] + '|' + basket_items[i].strip())
-        
-        
+         
         for i in itertools.permutations(row_items, k):
             new_key = deepcopy(i)
 
@@ -114,16 +112,11 @@ def getLargeSets(k, fileName, minSupport, candidates):
         
     f.close()
     
-    
     itemNum = len(supportDict.keys())
-
-    
-    
+   
     for item in supportDict.keys():
         if float(supportDict[item])/float(transactionNum) < minSupport:
             del supportDict[item]
-
-    
 
     total_support[k] = supportDict  
     return supportDict.keys()
@@ -186,10 +179,8 @@ def aprioriGen(LargeItemSets, k):
                     Candidates.append(newItemSet)
     
     #pruning
-
     prunedCandidates = []
     pruneFlag = 0
-
     found = 0
 
     for j in range(len(Candidates)):
@@ -207,7 +198,6 @@ def aprioriGen(LargeItemSets, k):
         if not pruneFlag:
             prunedCandidates.append(Candidates[j])
             pruneFlag = 0
-
 
     return prunedCandidates
 

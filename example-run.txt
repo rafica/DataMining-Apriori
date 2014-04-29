@@ -1,0 +1,569 @@
+==Frequent itemsets (min_sup= 0.68 %)
+['CURRENTGRADE|A'] , 56.5095458958 %
+['BORO|MANHATTAN'] , 41.2628626901 %
+['CURRENTGRADE|B'] , 26.25951893 %
+['CUISINE|American'] , 24.1130406644 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A'] , 23.3834537806 %
+['BORO|BROOKLYN'] , 23.2156185956 %
+['BORO|QUEENS'] , 22.867436091 %
+['VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 17.2123826987 %
+['CUISINE|American', 'CURRENTGRADE|A'] , 14.6797540718 %
+['CURRENTGRADE|C'] , 14.0261029015 %
+['CURRENTGRADE|A', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 13.4138712113 %
+['BORO|MANHATTAN', 'CUISINE|American'] , 12.9047567684 %
+['BORO|BROOKLYN', 'CURRENTGRADE|A'] , 12.8706719879 %
+['BORO|QUEENS', 'CURRENTGRADE|A'] , 12.6527882645 %
+['CUISINE|Chinese'] , 11.2617840578 %
+['BORO|MANHATTAN', 'CURRENTGRADE|B'] , 10.6115845108 %
+['BORO|THE BRONX'] , 9.33793549779 %
+['VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 9.07776938842 %
+['VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 8.4461223169 %
+['BORO|MANHATTAN', 'CUISINE|American', 'CURRENTGRADE|A'] , 7.81188652788 %
+['VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 7.42314744903 %
+["VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 7.11897314206 %
+['BORO|MANHATTAN', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 7.03785999353 %
+['BORO|QUEENS', 'CURRENTGRADE|B'] , 6.34667241937 %
+['VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 6.26642217668 %
+['BORO|BROOKLYN', 'CURRENTGRADE|B'] , 6.23967209578 %
+['BORO|MANHATTAN', 'CURRENTGRADE|C'] , 5.99417538561 %
+['CUISINE|American', 'CURRENTGRADE|B'] , 5.7672311509 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 5.53122640492 %
+['BORO|THE BRONX', 'CURRENTGRADE|A'] , 5.4138712113 %
+['CUISINE|Pizza'] , 5.24517312048 %
+['VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 5.21453996333 %
+['CUISINE|Chinese', 'CURRENTGRADE|A'] , 4.99277316363 %
+['CURRENTGRADE|A', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 4.92719232014 %
+['CUISINE|Italian'] , 4.87930104627 %
+['CUISINE|Latin (Cuban Dominican Puerto Rican South & Central American)'] , 4.86894617625 %
+['BORO|BROOKLYN', 'CUISINE|American'] , 4.72656671341 %
+['VIOLATION|Hot food item not held at or above 140\xba F.'] , 4.34386797541 %
+['CURRENTGRADE|A', 'VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 4.3192751591 %
+['CUISINE|American', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 4.28475892568 %
+['CURRENTGRADE|A', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 4.19760543631 %
+['CURRENTGRADE|A', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 4.04789127386 %
+['BORO|QUEENS', 'CUISINE|American'] , 4.03796785676 %
+['BORO|QUEENS', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 3.97368137202 %
+['BORO|MANHATTAN', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 3.90162873476 %
+['VIOLATION|Filth flies or food/refuse/sewage-associated (FRSA) flies present in facility\x92s food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.'] , 3.88566497681 %
+['BORO|BROOKLYN', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 3.83604789127 %
+['CUISINE|Chinese', 'CURRENTGRADE|B'] , 3.75881781901 %
+['BORO|MANHATTAN', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 3.51332110883 %
+['CUISINE|American', 'CURRENTGRADE|A', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 3.48009923417 %
+['BORO|BROOKLYN', 'CURRENTGRADE|C'] , 3.38474813936 %
+['BORO|BROOKLYN', 'CUISINE|Chinese'] , 3.37180455183 %
+['CUISINE|Mexican'] , 3.35540934096 %
+['BORO|STATEN ISLAND'] , 3.31614712544 %
+['BORO|MANHATTAN', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 3.2954373854 %
+['CUISINE|Caf\xe9/Coffee/Tea'] , 3.26221551073 %
+['BORO|QUEENS', 'CUISINE|Chinese'] , 3.24625175278 %
+['CUISINE|Japanese'] , 3.21389278395 %
+['CUISINE|Bakery'] , 3.17678783303 %
+['CUISINE|American', 'CURRENTGRADE|C'] , 3.09049724949 %
+['CURRENTGRADE|A', 'VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 3.08014237946 %
+['BORO|MANHATTAN', 'CUISINE|American', 'CURRENTGRADE|B'] , 3.0689246036 %
+['CURRENTGRADE|B', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 3.061589904 %
+['BORO|QUEENS', 'CURRENTGRADE|C'] , 3.04519469313 %
+['CUISINE|Pizza', 'CURRENTGRADE|A'] , 3.03527127602 %
+['BORO|QUEENS', 'CURRENTGRADE|A', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 3.03397691727 %
+['CUISINE|Caribbean'] , 2.99169453133 %
+['BORO|BROOKLYN', 'CURRENTGRADE|A', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 2.97486786754 %
+['BORO|MANHATTAN', 'CUISINE|Italian'] , 2.94639197498 %
+['CURRENTGRADE|B', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 2.92050479991 %
+['BORO|BROOKLYN', 'CUISINE|American', 'CURRENTGRADE|A'] , 2.84888361558 %
+['ZIPCODE|10003'] , 2.80401251213 %
+['BORO|MANHATTAN', 'ZIPCODE|10003'] , 2.80401251213 %
+['BORO|MANHATTAN', 'CUISINE|Chinese'] , 2.76647610829 %
+['VIOLATION|Sanitized equipment or utensil, including in-use food dispensing utensil, improperly used or stored.'] , 2.76388739079 %
+['BORO|MANHATTAN', 'VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 2.76216157912 %
+['CUISINE|Italian', 'CURRENTGRADE|A'] , 2.75655269119 %
+['BORO|MANHATTAN', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 2.73800021573 %
+['VIOLATION|Raw, cooked or prepared food is adulterated, contaminated, cross-contaminated, or not discarded in accordance with HACCP plan.'] , 2.72117355194 %
+['CURRENTGRADE|B', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 2.66163304929 %
+['BORO|MANHATTAN', 'ZIPCODE|10019'] , 2.61935066336 %
+['ZIPCODE|10019'] , 2.61935066336 %
+["VIOLATION|Live roaches present in facility's food and/or non-food areas."] , 2.61115305792 %
+['CURRENTGRADE|A', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 2.610721605 %
+['CUISINE|Caf\xe9/Coffee/Tea', 'CURRENTGRADE|A'] , 2.53564879732 %
+['BORO|QUEENS', 'CUISINE|American', 'CURRENTGRADE|A'] , 2.47438248301 %
+['BORO|THE BRONX', 'CURRENTGRADE|B'] , 2.3596160069 %
+['BORO|MANHATTAN', 'ZIPCODE|10036'] , 2.29317225758 %
+['ZIPCODE|10036'] , 2.29317225758 %
+['BORO|BROOKLYN', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 2.28411174631 %
+['BORO|MANHATTAN', 'CUISINE|American', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 2.28238593463 %
+['CUISINE|Spanish'] , 2.25822457124 %
+['CUISINE|Latin (Cuban Dominican Puerto Rican South & Central American)', 'CURRENTGRADE|A'] , 2.23794628411 %
+['CURRENTGRADE|Z'] , 2.21249056197 %
+['ZIPCODE|10013'] , 2.20213569194 %
+['BORO|MANHATTAN', 'ZIPCODE|10013'] , 2.20213569194 %
+['CURRENTGRADE|B', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 2.19738970985 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 2.19350663359 %
+['BORO|STATEN ISLAND', 'CURRENTGRADE|A'] , 2.18876065149 %
+['BORO|QUEENS', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 2.14604681264 %
+['BORO|MANHATTAN', 'VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 2.09254665085 %
+['CUISINE|American', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 2.06363930536 %
+['CUISINE|American', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 2.02955452486 %
+['CUISINE|Chinese', 'CURRENTGRADE|C'] , 2.01790529608 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 1.99978427354 %
+['CUISINE|Pizza/Italian'] , 1.98036889224 %
+['CUISINE|American', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 1.9743285514 %
+['BORO|MANHATTAN', 'CUISINE|Japanese'] , 1.94714701758 %
+['CUISINE|American', 'VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 1.94628411175 %
+['ZIPCODE|10022'] , 1.94369539424 %
+['BORO|MANHATTAN', 'ZIPCODE|10022'] , 1.94369539424 %
+['BORO|MANHATTAN', 'ZIPCODE|10002'] , 1.90831625499 %
+['ZIPCODE|10002'] , 1.90831625499 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 1.89235249703 %
+['VIOLATION|Proper sanitization not provided for utensil ware washing operation.'] , 1.87595728616 %
+['ZIPCODE|10011'] , 1.85999352821 %
+['BORO|MANHATTAN', 'ZIPCODE|10011'] , 1.85999352821 %
+['BORO|MANHATTAN', 'CUISINE|American', 'CURRENTGRADE|A', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 1.84920720526 %
+['BORO|BROOKLYN', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 1.84230395858 %
+['CUISINE|Delicatessen'] , 1.82202567145 %
+['BORO|BROOKLYN', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 1.82159421853 %
+['CUISINE|Bakery', 'CURRENTGRADE|A'] , 1.8207313127 %
+['CUISINE|Chinese', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 1.81857404811 %
+['BORO|QUEENS', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 1.81469097185 %
+['BORO|MANHATTAN', 'CUISINE|Caf\xe9/Coffee/Tea'] , 1.80735627225 %
+['CUISINE|Hamburgers'] , 1.79268687304 %
+['BORO|MANHATTAN', 'ZIPCODE|10016'] , 1.78750943803 %
+['ZIPCODE|10016'] , 1.78750943803 %
+['CURRENTGRADE|A', 'VIOLATION|Hot food item not held at or above 140\xba F.'] , 1.7745658505 %
+['BORO|QUEENS', 'CUISINE|Latin (Cuban Dominican Puerto Rican South & Central American)'] , 1.7452270521 %
+['VIOLATION|Wiping cloths soiled or not stored in sanitizing solution.'] , 1.74350124043 %
+['BORO|MANHATTAN', 'CUISINE|American', 'CURRENTGRADE|C'] , 1.73098910581 %
+['BORO|MANHATTAN', 'ZIPCODE|10001'] , 1.72451731205 %
+['ZIPCODE|10001'] , 1.72451731205 %
+['BORO|THE BRONX', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 1.70682774242 %
+['BORO|QUEENS', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 1.69345270197 %
+['VIOLATION|Food contact surface not properly maintained.'] , 1.68050911444 %
+['BORO|MANHATTAN', 'CUISINE|Pizza'] , 1.67662603818 %
+['ZIPCODE|10014'] , 1.66799697983 %
+['BORO|MANHATTAN', 'ZIPCODE|10014'] , 1.66799697983 %
+['VIOLATION|Personal cleanliness inadequate. Outer garment soiled with possible contaminant.  Effective hair restraint not worn in an area where food is prepared.'] , 1.66368245065 %
+['CURRENTGRADE|A', 'VIOLATION|Sanitized equipment or utensil, including in-use food dispensing utensil, improperly used or stored.'] , 1.63002912307 %
+['CUISINE|Mexican', 'CURRENTGRADE|A'] , 1.6283033114 %
+['BORO|MANHATTAN', 'ZIPCODE|10012'] , 1.61967425305 %
+['ZIPCODE|10012'] , 1.61967425305 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10019'] , 1.61837989429 %
+['CURRENTGRADE|A', 'ZIPCODE|10019'] , 1.61837989429 %
+['BORO|THE BRONX', 'CUISINE|American'] , 1.60543630676 %
+['BORO|BROOKLYN', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 1.60198468342 %
+['CUISINE|American', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 1.59982741883 %
+['CUISINE|Donuts'] , 1.59594434257 %
+['BORO|MANHATTAN', 'VIOLATION|Filth flies or food/refuse/sewage-associated (FRSA) flies present in facility\x92s food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.'] , 1.59076690756 %
+['BORO|QUEENS', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 1.58386366088 %
+['BORO|MANHATTAN', 'VIOLATION|Hot food item not held at or above 140\xba F.'] , 1.58256930212 %
+['BORO|BROOKLYN', 'CUISINE|Chinese', 'CURRENTGRADE|A'] , 1.58213784921 %
+['BORO|MANHATTAN', 'CUISINE|Italian', 'CURRENTGRADE|A'] , 1.58127494337 %
+['ZIPCODE|11215'] , 1.57609750836 %
+['CURRENTGRADE|B', 'VIOLATION|Hot food item not held at or above 140\xba F.'] , 1.57437169669 %
+['ZIPCODE|10017'] , 1.57135152626 %
+['BORO|MANHATTAN', 'ZIPCODE|10017'] , 1.57135152626 %
+['CUISINE|Sandwiches'] , 1.55883939165 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 1.5502103333 %
+['CURRENTGRADE|C', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 1.54460144537 %
+['BORO|THE BRONX', 'CUISINE|Chinese'] , 1.54244418078 %
+['CURRENTGRADE|B', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 1.5234602524 %
+['ZIPCODE|11354'] , 1.51828281739 %
+['CUISINE|Caribbean', 'CURRENTGRADE|A'] , 1.51439974113 %
+['CURRENTGRADE|A', 'ZIPCODE|10003'] , 1.51396828821 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10003'] , 1.51396828821 %
+['CURRENTGRADE|A', 'VIOLATION|Filth flies or food/refuse/sewage-associated (FRSA) flies present in facility\x92s food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.'] , 1.51224247654 %
+['BORO|QUEENS', 'ZIPCODE|11372'] , 1.51051666487 %
+['ZIPCODE|11372'] , 1.51051666487 %
+['CUISINE|Latin (Cuban Dominican Puerto Rican South & Central American)', 'CURRENTGRADE|B'] , 1.5087908532 %
+['BORO|QUEENS', 'ZIPCODE|11354'] , 1.50663358861 %
+['CUISINE|Japanese', 'CURRENTGRADE|A'] , 1.50447632402 %
+['CURRENTGRADE|B', 'VIOLATION|Filth flies or food/refuse/sewage-associated (FRSA) flies present in facility\x92s food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.'] , 1.49843598317 %
+['BORO|MANHATTAN', 'CUISINE|Caf\xe9/Coffee/Tea', 'CURRENTGRADE|A'] , 1.48074641355 %
+['CUISINE|Indian'] , 1.47858914896 %
+['CUISINE|Chicken'] , 1.47772624312 %
+['BORO|QUEENS', 'CUISINE|Chinese', 'CURRENTGRADE|A'] , 1.47125444936 %
+['BORO|BROOKLYN', 'CUISINE|Caribbean'] , 1.46866573185 %
+['VIOLATION|Food Protection Certificate not held by supervisor of food operations.'] , 1.44321000971 %
+['ZIPCODE|11220'] , 1.43544385719 %
+['BORO|BROOKLYN', 'ZIPCODE|11215'] , 1.425951893 %
+['BORO|BROOKLYN', 'ZIPCODE|11220'] , 1.40783087046 %
+['CUISINE|American', 'CURRENTGRADE|A', 'VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 1.4065365117 %
+['CUISINE|Jewish/Kosher'] , 1.40481070003 %
+['BORO|QUEENS', 'VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 1.4039477942 %
+['ZIPCODE|11201'] , 1.39575018876 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10036'] , 1.38539531874 %
+['CURRENTGRADE|A', 'ZIPCODE|10036'] , 1.38539531874 %
+['CUISINE|Pizza', 'CURRENTGRADE|B'] , 1.38539531874 %
+['CUISINE|Asian'] , 1.38194369539 %
+['VIOLATION|Pesticide use not in accordance with label or applicable laws. Prohibited chemical used/stored. Open bait station used.'] , 1.37935497789 %
+['CURRENTGRADE|C', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 1.3724517312 %
+['CUISINE|Hamburgers', 'CURRENTGRADE|A'] , 1.36597993744 %
+['BORO|BROOKLYN', 'ZIPCODE|11201'] , 1.36468557869 %
+['CUISINE|American', 'CURRENTGRADE|A', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 1.36339121993 %
+['BORO|BROOKLYN', 'VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 1.3551936145 %
+['ZIPCODE|11211'] , 1.34181857405 %
+['ZIPCODE|10018'] , 1.33879840362 %
+['BORO|MANHATTAN', 'ZIPCODE|10018'] , 1.33879840362 %
+['CUISINE|Donuts', 'CURRENTGRADE|A'] , 1.33491532736 %
+['ZIPCODE|10009'] , 1.33060079819 %
+['CURRENTGRADE|A', 'VIOLATION|Proper sanitization not provided for utensil ware washing operation.'] , 1.32887498652 %
+['BORO|MANHATTAN', 'ZIPCODE|10009'] , 1.32326609859 %
+['CUISINE|French'] , 1.32283464567 %
+['CUISINE|Thai'] , 1.32154028692 %
+['BORO|BROOKLYN', 'ZIPCODE|11211'] , 1.31808866357 %
+['BORO|THE BRONX', 'CURRENTGRADE|A', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 1.31593139899 %
+['BORO|BROOKLYN', 'CUISINE|Pizza'] , 1.30471362313 %
+['CURRENTGRADE|B', 'VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 1.30126199978 %
+['CURRENTGRADE|C', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 1.29953618811 %
+['CUISINE|Italian', 'CURRENTGRADE|B'] , 1.29263294143 %
+['CURRENTGRADE|A', 'VIOLATION|Food contact surface not properly maintained.'] , 1.27666918348 %
+['BORO|THE BRONX', 'CURRENTGRADE|C'] , 1.27364901305 %
+['BORO|BROOKLYN', 'VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 1.27149174846 %
+['BORO|MANHATTAN', 'VIOLATION|Raw, cooked or prepared food is adulterated, contaminated, cross-contaminated, or not discarded in accordance with HACCP plan.'] , 1.25078200841 %
+['CUISINE|Sandwiches', 'CURRENTGRADE|A'] , 1.24085859131 %
+['CUISINE|Korean'] , 1.23870132672 %
+['BORO|MANHATTAN', 'VIOLATION|Sanitized equipment or utensil, including in-use food dispensing utensil, improperly used or stored.'] , 1.23568115629 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 1.23309243879 %
+['BORO|QUEENS', 'VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 1.23136662712 %
+['CURRENTGRADE|B', 'VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 1.22446338043 %
+['BORO|QUEENS', 'CUISINE|Pizza'] , 1.2188544925 %
+['CUISINE|Chinese', 'CURRENTGRADE|A', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 1.21410851041 %
+['ZIPCODE|11368'] , 1.1895156941 %
+['CURRENTGRADE|B', "VIOLATION|Live roaches present in facility's food and/or non-food areas."] , 1.18649552368 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10022'] , 1.18520116492 %
+['CURRENTGRADE|A', 'ZIPCODE|10022'] , 1.18520116492 %
+['BORO|MANHATTAN', 'CUISINE|American', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 1.18520116492 %
+['BORO|QUEENS', 'ZIPCODE|11368'] , 1.18476971201 %
+['BORO|MANHATTAN', 'CURRENTGRADE|B', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 1.18131808866 %
+['BORO|MANHATTAN', 'CUISINE|Latin (Cuban Dominican Puerto Rican South & Central American)'] , 1.17570920073 %
+['VIOLATION|Toilet facility not maintained and provided with toilet paper, waste receptacle and self-closing door.'] , 1.15801963111 %
+['BORO|MANHATTAN', 'CUISINE|Mexican'] , 1.15197929026 %
+['CUISINE|Spanish', 'CURRENTGRADE|A'] , 1.148096214 %
+['BORO|MANHATTAN', 'CURRENTGRADE|B', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 1.14723330817 %
+['BORO|BROOKLYN', 'CUISINE|Chinese', 'CURRENTGRADE|B'] , 1.13989860856 %
+['BORO|MANHATTAN', 'CURRENTGRADE|B', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 1.13730989106 %
+['CUISINE|American', 'VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 1.13385826772 %
+['BORO|BROOKLYN', 'CUISINE|American', 'CURRENTGRADE|B'] , 1.13213245605 %
+['CURRENTGRADE|A', 'VIOLATION|Raw, cooked or prepared food is adulterated, contaminated, cross-contaminated, or not discarded in accordance with HACCP plan.'] , 1.12954373854 %
+['BORO|QUEENS', 'CUISINE|Chinese', 'CURRENTGRADE|B'] , 1.10753963974 %
+['BORO|MANHATTAN', 'CUISINE|American', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 1.1040880164 %
+['CUISINE|Pizza/Italian', 'CURRENTGRADE|A'] , 1.09632186388 %
+['CUISINE|Chinese', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 1.09157588178 %
+['CUISINE|American', 'CURRENTGRADE|A', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 1.07863229425 %
+['BORO|BROOKLYN', 'VIOLATION|Hot food item not held at or above 140\xba F.'] , 1.07561212383 %
+['BORO|MANHATTAN', 'CUISINE|French'] , 1.07518067091 %
+['CURRENTGRADE|A', 'ZIPCODE|10013'] , 1.07043468881 %
+['VIOLATION|Mechanical or natural ventilation system not provided, improperly installed, in disrepair and/or fails to prevent excessive build-up of grease, heat, steam condensation vapors, odors, smoke, and fumes.'] , 1.07043468881 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10013'] , 1.07043468881 %
+['BORO|QUEENS', 'VIOLATION|Hot food item not held at or above 140\xba F.'] , 1.05835400712 %
+['BORO|BROOKLYN', 'CURRENTGRADE|A', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 1.03980153166 %
+['CURRENTGRADE|A', 'ZIPCODE|10011'] , 1.0385071729 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10011'] , 1.0385071729 %
+['BORO|MANHATTAN', 'ZIPCODE|10025'] , 1.03807571999 %
+['ZIPCODE|10025'] , 1.03807571999 %
+['CURRENTGRADE|A', 'ZIPCODE|10001'] , 1.0359184554 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10001'] , 1.0359184554 %
+['BORO|MANHATTAN', 'CUISINE|American', 'VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 1.03203537914 %
+['BORO|QUEENS', 'CURRENTGRADE|A', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 1.03074102039 %
+['BORO|MANHATTAN', 'CUISINE|American', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 1.02901520872 %
+['BORO|THE BRONX', 'CUISINE|Latin (Cuban Dominican Puerto Rican South & Central American)'] , 1.0285837558 %
+['CUISINE|American', 'VIOLATION|Filth flies or food/refuse/sewage-associated (FRSA) flies present in facility\x92s food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.'] , 1.02815230288 %
+['ZIPCODE|11101'] , 1.02642649121 %
+['BORO|QUEENS', 'ZIPCODE|11101'] , 1.02642649121 %
+['CUISINE|Japanese', 'CURRENTGRADE|B'] , 1.02513213246 %
+['BORO|QUEENS', 'CUISINE|Bakery'] , 1.02426922662 %
+['CURRENTGRADE|C', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 1.01995469744 %
+['ZIPCODE|11373'] , 1.01866033869 %
+['ZIPCODE|11209'] , 1.01866033869 %
+['BORO|QUEENS', 'ZIPCODE|11373'] , 1.01693452702 %
+['BORO|MANHATTAN', 'CUISINE|American', 'ZIPCODE|10019'] , 1.01607162118 %
+['CUISINE|American', 'ZIPCODE|10019'] , 1.01607162118 %
+['BORO|QUEENS', 'ZIPCODE|11385'] , 1.01477726243 %
+['ZIPCODE|11385'] , 1.01477726243 %
+['CUISINE|American', 'CURRENTGRADE|A', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 1.01305145076 %
+['BORO|BROOKLYN', 'CURRENTGRADE|A', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 1.01132563909 %
+['BORO|BROOKLYN', 'ZIPCODE|11209'] , 1.01003128034 %
+['BORO|QUEENS', 'CUISINE|American', 'CURRENTGRADE|B'] , 1.00787401575 %
+['CUISINE|Mexican', 'CURRENTGRADE|B'] , 1.00010786323 %
+['BORO|THE BRONX', 'CUISINE|American', 'CURRENTGRADE|A'] , 0.996656239888 %
+['CUISINE|American', 'VIOLATION|Raw, cooked or prepared food is adulterated, contaminated, cross-contaminated, or not discarded in accordance with HACCP plan.'] , 0.995361881135 %
+['CURRENTGRADE|P'] , 0.992341710711 %
+['CUISINE|Chinese', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 0.991910257793 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10014'] , 0.98500701111 %
+['CURRENTGRADE|A', 'ZIPCODE|10014'] , 0.98500701111 %
+['BORO|MANHATTAN', "VIOLATION|Live roaches present in facility's food and/or non-food areas."] , 0.976377952756 %
+['VIOLATION|Single service item reused, improperly stored, dispensed; not used when required.'] , 0.975083594003 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 0.964728723978 %
+['BORO|BROOKLYN', 'CUISINE|Mexican'] , 0.963002912307 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10002'] , 0.961708553554 %
+['CURRENTGRADE|A', 'ZIPCODE|10002'] , 0.961708553554 %
+['BORO|QUEENS', 'CURRENTGRADE|A', 'VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 0.958256930212 %
+['CURRENTGRADE|B', 'VIOLATION|Raw, cooked or prepared food is adulterated, contaminated, cross-contaminated, or not discarded in accordance with HACCP plan.'] , 0.952648042282 %
+['CURRENTGRADE|A', 'ZIPCODE|10016'] , 0.949196418941 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10016'] , 0.949196418941 %
+['ZIPCODE|10010'] , 0.948333513105 %
+['BORO|MANHATTAN', 'ZIPCODE|10010'] , 0.948333513105 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10012'] , 0.94747060727 %
+['CURRENTGRADE|A', 'ZIPCODE|10012'] , 0.94747060727 %
+['CURRENTGRADE|A', 'VIOLATION|Wiping cloths soiled or not stored in sanitizing solution.'] , 0.945313342681 %
+['BORO|MANHATTAN', 'CUISINE|Chinese', 'CURRENTGRADE|B'] , 0.943587531011 %
+['CURRENTGRADE|A', 'ZIPCODE|11215'] , 0.942724625175 %
+['BORO|QUEENS', 'CURRENTGRADE|A', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 0.94186171934 %
+['BORO|MANHATTAN', 'CUISINE|Chinese', 'CURRENTGRADE|A'] , 0.939704454751 %
+['CUISINE|Latin (Cuban Dominican Puerto Rican South & Central American)', 'CURRENTGRADE|C'] , 0.939273001834 %
+['VIOLATION|Thawing procedures improper.'] , 0.938841548916 %
+['BORO|BROOKLYN', 'CURRENTGRADE|A', 'VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 0.938841548916 %
+['BORO|MANHATTAN', 'CUISINE|American', 'ZIPCODE|10036'] , 0.935389925574 %
+['CUISINE|American', 'ZIPCODE|10036'] , 0.935389925574 %
+['BORO|MANHATTAN', 'CURRENTGRADE|Z'] , 0.931075396397 %
+['BORO|BROOKLYN', 'VIOLATION|Filth flies or food/refuse/sewage-associated (FRSA) flies present in facility\x92s food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.'] , 0.924603602632 %
+['BORO|THE BRONX', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 0.923740696796 %
+['CUISINE|Bakery', 'CURRENTGRADE|B'] , 0.918563261784 %
+['BORO|MANHATTAN', 'CUISINE|Bakery'] , 0.90993420343 %
+['ZIPCODE|11217'] , 0.903462409665 %
+['CUISINE|Chicken', 'CURRENTGRADE|A'] , 0.901305145076 %
+['CUISINE|Chinese', 'VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 0.900010786323 %
+['CUISINE|Pizza', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 0.898284974652 %
+['CUISINE|Delicatessen', 'CURRENTGRADE|A'] , 0.88922446338 %
+['BORO|MANHATTAN', 'CUISINE|Pizza', 'CURRENTGRADE|A'] , 0.88361557545 %
+['BORO|BROOKLYN', 'CURRENTGRADE|A', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 0.882321216697 %
+['BORO|MANHATTAN', 'ZIPCODE|10028'] , 0.881458310862 %
+['ZIPCODE|10028'] , 0.881458310862 %
+['CUISINE|Irish'] , 0.879732499191 %
+['BORO|MANHATTAN', 'CURRENTGRADE|B', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 0.879732499191 %
+['BORO|QUEENS', 'CUISINE|Caribbean'] , 0.879301046273 %
+['ZIPCODE|11377'] , 0.874555064179 %
+['BORO|MANHATTAN', 'CUISINE|Japanese', 'CURRENTGRADE|A'] , 0.872829252508 %
+['BORO|BROOKLYN', 'ZIPCODE|11217'] , 0.869809082084 %
+['VIOLATION|Food worker does not use proper utensil to eliminate bare hand contact with food that will not receive adequate additional heat treatment.'] , 0.869377629166 %
+['BORO|QUEENS', 'ZIPCODE|11377'] , 0.867651817495 %
+['ZIPCODE|11355'] , 0.86118002373 %
+['BORO|QUEENS', 'ZIPCODE|11355'] , 0.859022759141 %
+['CURRENTGRADE|A', 'ZIPCODE|10017'] , 0.856002588718 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10017'] , 0.856002588718 %
+['ZIPCODE|11226'] , 0.8555711358 %
+['BORO|BROOKLYN', 'CURRENTGRADE|A', 'ZIPCODE|11215'] , 0.855139682882 %
+['BORO|QUEENS', 'VIOLATION|Filth flies or food/refuse/sewage-associated (FRSA) flies present in facility\x92s food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.'] , 0.853413871211 %
+['BORO|QUEENS', 'CURRENTGRADE|A', 'VIOLATION|Cold food item held above 41\xba F (smoked fish and reduced oxygen packaged foods above 38 \xbaF) except during necessary preparation.'] , 0.849530794952 %
+['CURRENTGRADE|A', 'VIOLATION|Toilet facility not maintained and provided with toilet paper, waste receptacle and self-closing door.'] , 0.849099342034 %
+['BORO|MANHATTAN', 'VIOLATION|Proper sanitization not provided for utensil ware washing operation.'] , 0.846942077446 %
+['CURRENTGRADE|C', 'VIOLATION|Hot food item not held at or above 140\xba F.'] , 0.84607917161 %
+['BORO|BROOKLYN', 'CUISINE|Latin (Cuban Dominican Puerto Rican South & Central American)'] , 0.845647718693 %
+['BORO|THE BRONX', 'CUISINE|Pizza'] , 0.841764642433 %
+['BORO|BROOKLYN', 'CUISINE|Bakery'] , 0.841333189516 %
+['BORO|MANHATTAN', 'CUISINE|Delicatessen'] , 0.84047028368 %
+['BORO|MANHATTAN', 'CUISINE|Italian', 'CURRENTGRADE|B'] , 0.838313019092 %
+['BORO|STATEN ISLAND', 'CUISINE|American'] , 0.838313019092 %
+['CURRENTGRADE|A', 'VIOLATION|Personal cleanliness inadequate. Outer garment soiled with possible contaminant.  Effective hair restraint not worn in an area where food is prepared.'] , 0.832272678244 %
+['ZIPCODE|11238'] , 0.829683960738 %
+['CUISINE|Chinese', 'VIOLATION|Hot food item not held at or above 140\xba F.'] , 0.828389601985 %
+['BORO|THE BRONX', 'CUISINE|Chinese', 'CURRENTGRADE|A'] , 0.827095243232 %
+['CURRENTGRADE|A', 'ZIPCODE|11211'] , 0.827095243232 %
+['BORO|BROOKLYN', 'ZIPCODE|11226'] , 0.821917808219 %
+['CUISINE|Caribbean', 'CURRENTGRADE|B'] , 0.819760543631 %
+['CUISINE|Chinese', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 0.819329090713 %
+['BORO|MANHATTAN', 'ZIPCODE|10024'] , 0.818897637795 %
+['ZIPCODE|10024'] , 0.818897637795 %
+['VIOLATION|Accurate thermometer not provided in refrigerated or hot holding equipment.'] , 0.817603279042 %
+['BORO|QUEENS', 'CUISINE|Spanish'] , 0.816308920289 %
+['BORO|BROOKLYN', 'ZIPCODE|11238'] , 0.813288749865 %
+['BORO|QUEENS', 'CUISINE|Latin (Cuban Dominican Puerto Rican South & Central American)', 'CURRENTGRADE|A'] , 0.812857296947 %
+['CUISINE|Ice Cream Gelato Yogurt Ices'] , 0.810700032359 %
+['CURRENTGRADE|C', 'VIOLATION|Filth flies or food/refuse/sewage-associated (FRSA) flies present in facility\x92s food and/or non-food areas. Filth flies include house flies, little house flies, blow flies, bottle flies and flesh flies. Food/refuse/sewage-associated flies include fruit flies, drain flies and Phorid flies.'] , 0.810268579441 %
+['ZIPCODE|11375'] , 0.809837126524 %
+['BORO|QUEENS', 'ZIPCODE|11375'] , 0.809837126524 %
+['BORO|BROOKLYN', 'CURRENTGRADE|A', 'ZIPCODE|11211'] , 0.809837126524 %
+['CURRENTGRADE|A', 'VIOLATION|Pesticide use not in accordance with label or applicable laws. Prohibited chemical used/stored. Open bait station used.'] , 0.807679861935 %
+['BORO|BROOKLYN', 'CUISINE|Caf\xe9/Coffee/Tea'] , 0.805954050264 %
+['BORO|QUEENS', 'CUISINE|Korean'] , 0.805091144429 %
+['CUISINE|French', 'CURRENTGRADE|A'] , 0.795167727322 %
+['BORO|BROOKLYN', 'CUISINE|American', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 0.792579009816 %
+['BORO|MANHATTAN', 'CUISINE|American', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 0.786970121885 %
+['CUISINE|Mediterranean'] , 0.783087045626 %
+['CUISINE|Caf\xe9/Coffee/Tea', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 0.781792686873 %
+['BORO|MANHATTAN', 'CUISINE|American', 'ZIPCODE|10003'] , 0.778772516449 %
+['CUISINE|American', 'ZIPCODE|10003'] , 0.778772516449 %
+['BORO|QUEENS', 'CURRENTGRADE|B', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 0.778341063531 %
+['BORO|QUEENS', 'ZIPCODE|11103'] , 0.776183798943 %
+['ZIPCODE|11103'] , 0.776183798943 %
+['CURRENTGRADE|B', 'ZIPCODE|10003'] , 0.775320893108 %
+['BORO|MANHATTAN', 'CURRENTGRADE|B', 'ZIPCODE|10003'] , 0.775320893108 %
+['BORO|BROOKLYN', 'CURRENTGRADE|B', 'VIOLATION|Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.'] , 0.773595081437 %
+['BORO|BROOKLYN', 'CUISINE|Italian'] , 0.773163628519 %
+['BORO|MANHATTAN', 'ZIPCODE|10023'] , 0.772300722684 %
+['ZIPCODE|10023'] , 0.772300722684 %
+['CURRENTGRADE|A', 'ZIPCODE|11201'] , 0.771437816848 %
+['CUISINE|Jewish/Kosher', 'CURRENTGRADE|A'] , 0.76928055226 %
+['ZIPCODE|10458'] , 0.767554740589 %
+['BORO|QUEENS', 'CUISINE|Pizza', 'CURRENTGRADE|A'] , 0.765828928918 %
+['BORO|MANHATTAN', 'VIOLATION|Food contact surface not properly maintained.'] , 0.76367166433 %
+['BORO|MANHATTAN', 'CUISINE|Thai'] , 0.76367166433 %
+['BORO|MANHATTAN', 'CUISINE|American', 'CURRENTGRADE|A', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 0.761945852659 %
+['BORO|MANHATTAN', 'ZIPCODE|10029'] , 0.761514399741 %
+['BORO|BROOKLYN', 'CUISINE|Pizza', 'CURRENTGRADE|A'] , 0.761514399741 %
+['BORO|THE BRONX', 'ZIPCODE|10458'] , 0.761514399741 %
+['ZIPCODE|10029'] , 0.761514399741 %
+['BORO|MANHATTAN', 'ZIPCODE|10065'] , 0.760220040988 %
+['BORO|BROOKLYN', 'CURRENTGRADE|A', 'VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 0.760220040988 %
+['ZIPCODE|10065'] , 0.760220040988 %
+['CURRENTGRADE|A', 'ZIPCODE|11372'] , 0.758925682235 %
+['BORO|QUEENS', 'CURRENTGRADE|A', 'ZIPCODE|11372'] , 0.758925682235 %
+['CUISINE|Bagels/Pretzels'] , 0.755905511811 %
+['CUISINE|Italian', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 0.753748247223 %
+['CURRENTGRADE|A', 'VIOLATION|Mechanical or natural ventilation system not provided, improperly installed, in disrepair and/or fails to prevent excessive build-up of grease, heat, steam condensation vapors, odors, smoke, and fumes.'] , 0.753316794305 %
+['CUISINE|American', 'ZIPCODE|10022'] , 0.752885341387 %
+['BORO|MANHATTAN', 'CUISINE|American', 'ZIPCODE|10022'] , 0.752885341387 %
+['CURRENTGRADE|A', 'ZIPCODE|10018'] , 0.751590982634 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'ZIPCODE|10018'] , 0.751590982634 %
+['BORO|BROOKLYN', 'CURRENTGRADE|B', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 0.750728076799 %
+['CURRENTGRADE|A', 'VIOLATION|Single service item reused, improperly stored, dispensed; not used when required.'] , 0.750296623881 %
+['BORO|MANHATTAN', 'CUISINE|American', 'CURRENTGRADE|A', 'VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.'] , 0.749433718046 %
+['BORO|QUEENS', 'ZIPCODE|11432'] , 0.749002265128 %
+['BORO|QUEENS', 'CUISINE|American', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 0.749002265128 %
+['ZIPCODE|11432'] , 0.749002265128 %
+['VIOLATION|Hand washing facility not provided in or near food preparation area and toilet room. Hot and cold running water at adequate pressure to enable cleanliness of employees not provided at facility. Soap and an acceptable hand-drying device not provided.'] , 0.746413547622 %
+['CURRENTGRADE|C', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 0.745982094704 %
+['BORO|BROOKLYN', 'CURRENTGRADE|A', 'ZIPCODE|11201'] , 0.745550641786 %
+['BORO|BROOKLYN', 'CUISINE|Jewish/Kosher'] , 0.744687735951 %
+['BORO|MANHATTAN', 'CUISINE|Indian'] , 0.744256283033 %
+['BORO|MANHATTAN', 'CUISINE|Chinese', 'CURRENTGRADE|C'] , 0.737784489268 %
+['VIOLATION|Canned food product observed dented and not segregated from other consumable food items.'] , 0.733038507173 %
+['BORO|MANHATTAN', 'CUISINE|Sandwiches'] , 0.732175601338 %
+['CUISINE|Caf\xe9/Coffee/Tea', 'CURRENTGRADE|A', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 0.727429619243 %
+['CUISINE|Latin (Cuban Dominican Puerto Rican South & Central American)', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 0.723977995901 %
+['BORO|MANHATTAN', 'VIOLATION|Wiping cloths soiled or not stored in sanitizing solution.'] , 0.723115090066 %
+['CUISINE|American', 'CURRENTGRADE|A', 'VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 0.72225218423 %
+['VIOLATION|Appropriately scaled metal stem-type thermometer or thermocouple not provided or used to evaluate temperatures of potentially hazardous foods during cooking, cooling, reheating and holding.'] , 0.719232013806 %
+['BORO|MANHATTAN', 'CURRENTGRADE|A', 'VIOLATION|Sanitized equipment or utensil, including in-use food dispensing utensil, improperly used or stored.'] , 0.717074749218 %
+['BORO|QUEENS', 'CURRENTGRADE|A', 'VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 0.712760220041 %
+['BORO|QUEENS', 'CURRENTGRADE|B', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 0.71103440837 %
+['BORO|BROOKLYN', 'ZIPCODE|11214'] , 0.707582785029 %
+['ZIPCODE|11214'] , 0.707582785029 %
+['ZIPCODE|11222'] , 0.706719879193 %
+['BORO|BROOKLYN', 'ZIPCODE|11223'] , 0.704562614605 %
+['ZIPCODE|11223'] , 0.704562614605 %
+['CUISINE|Italian', 'CURRENTGRADE|C'] , 0.702405350016 %
+['BORO|STATEN ISLAND', 'CURRENTGRADE|B'] , 0.701973897098 %
+['CURRENTGRADE|B', 'VIOLATION|Sanitized equipment or utensil, including in-use food dispensing utensil, improperly used or stored.'] , 0.701110991263 %
+['CUISINE|American', 'CURRENTGRADE|A', 'ZIPCODE|10019'] , 0.69981663251 %
+['BORO|MANHATTAN', 'CUISINE|American', 'CURRENTGRADE|A', 'ZIPCODE|10019'] , 0.69981663251 %
+['BORO|THE BRONX', "VIOLATION|Evidence of mice or live mice present in facility's food and/or non-food areas."] , 0.698953726675 %
+['BORO|BROOKLYN', 'CUISINE|Caribbean', 'CURRENTGRADE|A'] , 0.697659367921 %
+['CUISINE|Pizza', 'CURRENTGRADE|A', 'VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.'] , 0.697227915004 %
+['CURRENTGRADE|C', 'VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service.'] , 0.696796462086 %
+['BORO|MANHATTAN', 'CURRENTGRADE|B', 'VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly.'] , 0.689461762485 %
+['BORO|MANHATTAN', 'VIOLATION|Personal cleanliness inadequate. Outer garment soiled with possible contaminant.  Effective hair restraint not worn in an area where food is prepared.'] , 0.68298996872 %
+['CUISINE|Ice Cream Gelato Yogurt Ices', 'CURRENTGRADE|A'] , 0.680401251213 %
+
+
+==High-confidence association rules ( 61.0 %)
+[ CURRENTGRADE|A ,ZIPCODE|10022 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.18520116492 %)
+[ ZIPCODE|11432 ] => [ BORO|QUEENS ] (Conf: 100.0 %, Supp: 0.749002265128 %)
+[ CURRENTGRADE|A ,ZIPCODE|10012 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.94747060727 %)
+[ ZIPCODE|10018 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.33879840362 %)
+[ ZIPCODE|10001 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.72451731205 %)
+[ CUISINE|American ,ZIPCODE|10019 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.01607162118 %)
+[ CURRENTGRADE|A ,ZIPCODE|10002 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.961708553554 %)
+[ CURRENTGRADE|A ,ZIPCODE|10036 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.38539531874 %)
+[ ZIPCODE|10013 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 2.20213569194 %)
+[ ZIPCODE|10003 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 2.80401251213 %)
+[ ZIPCODE|10022 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.94369539424 %)
+[ CURRENTGRADE|A ,ZIPCODE|10019 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.61837989429 %)
+[ CUISINE|American ,ZIPCODE|10003 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.778772516449 %)
+[ ZIPCODE|11372 ] => [ BORO|QUEENS ] (Conf: 100.0 %, Supp: 1.51051666487 %)
+[ ZIPCODE|10002 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.90831625499 %)
+[ ZIPCODE|11103 ] => [ BORO|QUEENS ] (Conf: 100.0 %, Supp: 0.776183798943 %)
+[ ZIPCODE|11214 ] => [ BORO|BROOKLYN ] (Conf: 100.0 %, Supp: 0.707582785029 %)
+[ ZIPCODE|10023 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.772300722684 %)
+[ ZIPCODE|10065 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.760220040988 %)
+[ CURRENTGRADE|A ,ZIPCODE|10011 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.0385071729 %)
+[ CURRENTGRADE|A ,ZIPCODE|10003 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.51396828821 %)
+[ ZIPCODE|10019 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 2.61935066336 %)
+[ CUISINE|American ,CURRENTGRADE|A ,ZIPCODE|10019 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.69981663251 %)
+[ ZIPCODE|10014 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.66799697983 %)
+[ ZIPCODE|10025 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.03807571999 %)
+[ CURRENTGRADE|A ,ZIPCODE|11372 ] => [ BORO|QUEENS ] (Conf: 100.0 %, Supp: 0.758925682235 %)
+[ CURRENTGRADE|A ,ZIPCODE|10001 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.0359184554 %)
+[ ZIPCODE|10036 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 2.29317225758 %)
+[ CUISINE|American ,ZIPCODE|10022 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.752885341387 %)
+[ CURRENTGRADE|A ,ZIPCODE|10018 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.751590982634 %)
+[ CUISINE|American ,ZIPCODE|10036 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.935389925574 %)
+[ ZIPCODE|10029 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.761514399741 %)
+[ ZIPCODE|10028 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.881458310862 %)
+[ CURRENTGRADE|A ,ZIPCODE|10016 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.949196418941 %)
+[ ZIPCODE|11223 ] => [ BORO|BROOKLYN ] (Conf: 100.0 %, Supp: 0.704562614605 %)
+[ ZIPCODE|10016 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.78750943803 %)
+[ ZIPCODE|10017 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.57135152626 %)
+[ CURRENTGRADE|A ,ZIPCODE|10014 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.98500701111 %)
+[ ZIPCODE|10012 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.61967425305 %)
+[ ZIPCODE|10010 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.948333513105 %)
+[ ZIPCODE|10024 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.818897637795 %)
+[ CURRENTGRADE|A ,ZIPCODE|10013 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.07043468881 %)
+[ ZIPCODE|11101 ] => [ BORO|QUEENS ] (Conf: 100.0 %, Supp: 1.02642649121 %)
+[ ZIPCODE|11385 ] => [ BORO|QUEENS ] (Conf: 100.0 %, Supp: 1.01477726243 %)
+[ ZIPCODE|11375 ] => [ BORO|QUEENS ] (Conf: 100.0 %, Supp: 0.809837126524 %)
+[ CURRENTGRADE|B ,ZIPCODE|10003 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.775320893108 %)
+[ ZIPCODE|10011 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 1.85999352821 %)
+[ CURRENTGRADE|A ,ZIPCODE|10017 ] => [ BORO|MANHATTAN ] (Conf: 100.0 %, Supp: 0.856002588718 %)
+[ ZIPCODE|11373 ] => [ BORO|QUEENS ] (Conf: 99.8305802626 %, Supp: 1.01693452702 %)
+[ ZIPCODE|11355 ] => [ BORO|QUEENS ] (Conf: 99.749498998 %, Supp: 0.859022759141 %)
+[ ZIPCODE|11368 ] => [ BORO|QUEENS ] (Conf: 99.6010155967 %, Supp: 1.18476971201 %)
+[ ZIPCODE|10009 ] => [ BORO|MANHATTAN ] (Conf: 99.448767834 %, Supp: 1.32326609859 %)
+[ ZIPCODE|11354 ] => [ BORO|QUEENS ] (Conf: 99.2327365729 %, Supp: 1.50663358861 %)
+[ ZIPCODE|10458 ] => [ BORO|THE BRONX ] (Conf: 99.2130410343 %, Supp: 0.761514399741 %)
+[ ZIPCODE|11377 ] => [ BORO|QUEENS ] (Conf: 99.2106561421 %, Supp: 0.867651817495 %)
+[ ZIPCODE|11209 ] => [ BORO|BROOKLYN ] (Conf: 99.152901313 %, Supp: 1.01003128034 %)
+[ ZIPCODE|11211 ] => [ BORO|BROOKLYN ] (Conf: 98.231511254 %, Supp: 1.31808866357 %)
+[ ZIPCODE|11220 ] => [ BORO|BROOKLYN ] (Conf: 98.0763450556 %, Supp: 1.40783087046 %)
+[ ZIPCODE|11238 ] => [ BORO|BROOKLYN ] (Conf: 98.0239209568 %, Supp: 0.813288749865 %)
+[ CURRENTGRADE|A ,ZIPCODE|11211 ] => [ BORO|BROOKLYN ] (Conf: 97.9134063641 %, Supp: 0.809837126524 %)
+[ ZIPCODE|11201 ] => [ BORO|BROOKLYN ] (Conf: 97.7743431221 %, Supp: 1.36468557869 %)
+[ CURRENTGRADE|A ,ZIPCODE|11201 ] => [ BORO|BROOKLYN ] (Conf: 96.644295302 %, Supp: 0.745550641786 %)
+[ ZIPCODE|11217 ] => [ BORO|BROOKLYN ] (Conf: 96.2750716332 %, Supp: 0.869809082084 %)
+[ ZIPCODE|11226 ] => [ BORO|BROOKLYN ] (Conf: 96.0665658094 %, Supp: 0.821917808219 %)
+[ CUISINE|Café/Coffee/Tea ,VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit. ] => [ CURRENTGRADE|A ] (Conf: 93.0463576159 %, Supp: 0.727429619243 %)
+[ CURRENTGRADE|A ,ZIPCODE|11215 ] => [ BORO|BROOKLYN ] (Conf: 90.709382151 %, Supp: 0.855139682882 %)
+[ ZIPCODE|11215 ] => [ BORO|BROOKLYN ] (Conf: 90.4735833561 %, Supp: 1.425951893 %)
+[ CUISINE|Ice Cream Gelato Yogurt Ices ] => [ CURRENTGRADE|A ] (Conf: 83.927621075 %, Supp: 0.680401251213 %)
+[ CUISINE|Donuts ] => [ CURRENTGRADE|A ] (Conf: 83.6442281698 %, Supp: 1.33491532736 %)
+[ BORO|MANHATTAN ,CUISINE|Café/Coffee/Tea ] => [ CURRENTGRADE|A ] (Conf: 81.9288613034 %, Supp: 1.48074641355 %)
+[ CUISINE|French ] => [ BORO|MANHATTAN ] (Conf: 81.2785388128 %, Supp: 1.07518067091 %)
+[ CUISINE|American ,VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit. ] => [ CURRENTGRADE|A ] (Conf: 81.2204209042 %, Supp: 3.48009923417 %)
+[ BORO|MANHATTAN ,CUISINE|American ,VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit. ] => [ CURRENTGRADE|A ] (Conf: 81.0207939509 %, Supp: 1.84920720526 %)
+[ CUISINE|Sandwiches ] => [ CURRENTGRADE|A ] (Conf: 79.6014392472 %, Supp: 1.24085859131 %)
+[ BORO|MANHATTAN ,VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit. ] => [ CURRENTGRADE|A ] (Conf: 78.5924472781 %, Supp: 5.53122640492 %)
+[ VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit. ] => [ CURRENTGRADE|A ] (Conf: 77.9315185241 %, Supp: 13.4138712113 %)
+[ CUISINE|Café/Coffee/Tea ] => [ CURRENTGRADE|A ] (Conf: 77.7278137812 %, Supp: 2.53564879732 %)
+[ CUISINE|Pizza ,VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit. ] => [ CURRENTGRADE|A ] (Conf: 77.6176753122 %, Supp: 0.697227915004 %)
+[ BORO|BROOKLYN ,VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit. ] => [ CURRENTGRADE|A ] (Conf: 77.5503317962 %, Supp: 2.97486786754 %)
+[ BORO|THE BRONX ,VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit. ] => [ CURRENTGRADE|A ] (Conf: 77.0980788675 %, Supp: 1.31593139899 %)
+[ VIOLATION|Single service item reused, improperly stored, dispensed; not used when required. ] => [ CURRENTGRADE|A ] (Conf: 76.9469026549 %, Supp: 0.750296623881 %)
+[ BORO|QUEENS ,VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit. ] => [ CURRENTGRADE|A ] (Conf: 76.3517915309 %, Supp: 3.03397691727 %)
+[ CUISINE|Hamburgers ] => [ CURRENTGRADE|A ] (Conf: 76.1973525872 %, Supp: 1.36597993744 %)
+[ VIOLATION|Food contact surface not properly maintained. ] => [ CURRENTGRADE|A ] (Conf: 75.9691912709 %, Supp: 1.27666918348 %)
+[ VIOLATION|Toilet facility not maintained and provided with toilet paper, waste receptacle and self-closing door. ] => [ CURRENTGRADE|A ] (Conf: 73.3233979136 %, Supp: 0.849099342034 %)
+[ BORO|MANHATTAN ,CUISINE|American ,VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred. ] => [ CURRENTGRADE|A ] (Conf: 72.6170568562 %, Supp: 0.749433718046 %)
+[ CUISINE|American ,VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred. ] => [ CURRENTGRADE|A ] (Conf: 72.267789847 %, Supp: 1.4065365117 %)
+[ VIOLATION|Proper sanitization not provided for utensil ware washing operation. ] => [ CURRENTGRADE|A ] (Conf: 70.8371665133 %, Supp: 1.32887498652 %)
+[ VIOLATION|Mechanical or natural ventilation system not provided, improperly installed, in disrepair and/or fails to prevent excessive build-up of grease, heat, steam condensation vapors, odors, smoke, and fumes. ] => [ CURRENTGRADE|A ] (Conf: 70.3748488513 %, Supp: 0.753316794305 %)
+[ BORO|BROOKLYN ,VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred. ] => [ CURRENTGRADE|A ] (Conf: 69.2773002229 %, Supp: 0.938841548916 %)
+[ CUISINE|American ,VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly. ] => [ CURRENTGRADE|A ] (Conf: 69.0559440559 %, Supp: 1.36339121993 %)
+[ BORO|MANHATTAN ,CUISINE|American ,VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly. ] => [ CURRENTGRADE|A ] (Conf: 69.0113325518 %, Supp: 0.761945852659 %)
+[ VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred. ] => [ CURRENTGRADE|A ] (Conf: 68.9272927568 %, Supp: 4.3192751591 %)
+[ BORO|MANHATTAN ,CUISINE|American ,ZIPCODE|10019 ] => [ CURRENTGRADE|A ] (Conf: 68.8747346072 %, Supp: 0.69981663251 %)
+[ CUISINE|American ,ZIPCODE|10019 ] => [ CURRENTGRADE|A ] (Conf: 68.8747346072 %, Supp: 0.69981663251 %)
+[ BORO|MANHATTAN ,VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred. ] => [ CURRENTGRADE|A ] (Conf: 68.5098406748 %, Supp: 1.89235249703 %)
+[ BORO|QUEENS ,VIOLATION|Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred. ] => [ CURRENTGRADE|A ] (Conf: 68.2544560541 %, Supp: 0.958256930212 %)
+[ CUISINE|Chinese ,VIOLATION|Non-food contact surface improperly constructed. Unacceptable material used. Non-food contact surface or equipment improperly maintained and/or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit. ] => [ CURRENTGRADE|A ] (Conf: 66.7615658363 %, Supp: 1.21410851041 %)
+[ BORO|MANHATTAN ,VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly. ] => [ CURRENTGRADE|A ] (Conf: 66.5619272061 %, Supp: 2.19350663359 %)
+[ VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly. ] => [ CURRENTGRADE|A ] (Conf: 66.3760534728 %, Supp: 4.92719232014 %)
+[ BORO|STATEN ISLAND ] => [ CURRENTGRADE|A ] (Conf: 66.0031225605 %, Supp: 2.18876065149 %)
+[ BORO|QUEENS ,VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly. ] => [ CURRENTGRADE|A ] (Conf: 65.0776355217 %, Supp: 1.03074102039 %)
+[ CUISINE|Korean ] => [ BORO|QUEENS ] (Conf: 64.9947753396 %, Supp: 0.805091144429 %)
+[ BORO|BROOKLYN ,VIOLATION|Plumbing not properly installed or maintained; anti-siphonage or backflow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly. ] => [ CURRENTGRADE|A ] (Conf: 64.9070832211 %, Supp: 1.03980153166 %)
+[ CUISINE|Italian ,CURRENTGRADE|B ] => [ BORO|MANHATTAN ] (Conf: 64.8531375167 %, Supp: 0.838313019092 %)
+[ CUISINE|American ,VIOLATION|Food not protected from potential source of contamination during storage, preparation, transportation, display or service. ] => [ CURRENTGRADE|A ] (Conf: 63.698630137 %, Supp: 0.72225218423 %)
+[ BORO|QUEENS ,CUISINE|Pizza ] => [ CURRENTGRADE|A ] (Conf: 62.8318584071 %, Supp: 0.765828928918 %)
+[ BORO|THE BRONX ,CUISINE|American ] => [ CURRENTGRADE|A ] (Conf: 62.0800859984 %, Supp: 0.996656239888 %)
+[ ZIPCODE|10019 ] => [ CURRENTGRADE|A ] (Conf: 61.7855378027 %, Supp: 1.61837989429 %)
+[ BORO|MANHATTAN ,ZIPCODE|10019 ] => [ CURRENTGRADE|A ] (Conf: 61.7855378027 %, Supp: 1.61837989429 %)
+[ ZIPCODE|11211 ] => [ CURRENTGRADE|A ] (Conf: 61.6398713826 %, Supp: 0.827095243232 %)
+[ BORO|BROOKLYN ,ZIPCODE|11211 ] => [ CURRENTGRADE|A ] (Conf: 61.4402618658 %, Supp: 0.809837126524 %)
+[ BORO|QUEENS ,CUISINE|American ] => [ CURRENTGRADE|A ] (Conf: 61.2779143071 %, Supp: 2.47438248301 %)
